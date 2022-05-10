@@ -1,0 +1,128 @@
+2022-05-10 11:11:19.914  INFO 5588 --- [main] m.s.SpringBootEhcacheApplication         : Starting SpringBootEhcacheApplication using Java 16.0.2 on mao with PID 5588 (H:\程序\大三下期\spring_boot_ehcache\target\classes started by mao in H:\程序\大三下期\spring_boot_ehcache)
+2022-05-10 11:11:19.916 DEBUG 5588 --- [main] m.s.SpringBootEhcacheApplication         : Running with Spring Boot v2.6.7, Spring v5.3.19
+2022-05-10 11:11:19.917  INFO 5588 --- [main] m.s.SpringBootEhcacheApplication         : The following 1 profile is active: "dev"
+2022-05-10 11:11:20.677  INFO 5588 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-10 11:11:20.684  INFO 5588 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-10 11:11:20.684  INFO 5588 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-10 11:11:20.763  INFO 5588 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-10 11:11:20.764  INFO 5588 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 808 ms
+2022-05-10 11:11:20.839  INFO 5588 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-05-10 11:11:20.951  INFO 5588 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-05-10 11:11:21.436  INFO 5588 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-10 11:11:21.445  INFO 5588 --- [main] m.s.SpringBootEhcacheApplication         : Started SpringBootEhcacheApplication in 1.859 seconds (JVM running for 2.329)
+2022-05-10 11:12:28.941  INFO 5588 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-05-10 11:12:28.942  INFO 5588 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-05-10 11:12:32.503  INFO 8172 --- [main] m.s.SpringBootEhcacheApplication         : Starting SpringBootEhcacheApplication using Java 16.0.2 on mao with PID 8172 (H:\程序\大三下期\spring_boot_ehcache\target\classes started by mao in H:\程序\大三下期\spring_boot_ehcache)
+2022-05-10 11:12:32.511 DEBUG 8172 --- [main] m.s.SpringBootEhcacheApplication         : Running with Spring Boot v2.6.7, Spring v5.3.19
+2022-05-10 11:12:32.512  INFO 8172 --- [main] m.s.SpringBootEhcacheApplication         : The following 1 profile is active: "dev"
+2022-05-10 11:12:33.263  INFO 8172 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-10 11:12:33.270  INFO 8172 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-10 11:12:33.270  INFO 8172 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-10 11:12:33.348  INFO 8172 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-10 11:12:33.348  INFO 8172 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 801 ms
+2022-05-10 11:12:33.419  INFO 8172 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-05-10 11:12:33.521  INFO 8172 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-05-10 11:12:33.980  INFO 8172 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-10 11:12:33.989  INFO 8172 --- [main] m.s.SpringBootEhcacheApplication         : Started SpringBootEhcacheApplication in 1.839 seconds (JVM running for 2.34)
+2022-05-10 11:38:49.965  INFO 8172 --- [http-nio-8080-exec-1] o.apache.coyote.http11.Http11Processor   : Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+
+java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x000x9a0x010x000x000x960x030x030xf80xa80x980x7fA,"!0x820x8b0xc60xc0N0x0b0xa7:*0xba0xae0xc60x0dZ0xbe0xfd0xe70xaf\0x930xfa0xeeb0x980x000x000x1a0xc0/0xc0+0xc00x110xc00x070xc00x130xc00x090xc00x140xc00x0a0x000x050x00/0x0050xc00x120x000x0a0x010x000x00S0x000x050x000x050x010x000x000x000x000x000x0a0x000x080x000x060x000x170x000x180x000x190x000x0b0x000x020x010x000x000x0d0x00&0x00$0x060x010x060x030x060x020x050x010x050x030x050x020x040x010x040x030x040x020x030x010x030x030x030x020x020x010x020x030x020x020x010x010x010x030x010x020xff0x010x000x010x000x000x0f0x000x010x010x000x120x000x00...]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:419) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:271) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at java.base/java.lang.Thread.run(Thread.java:831) ~[na:na]
+
+2022-05-10 11:50:43.520  INFO 8172 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-05-10 11:50:43.521  INFO 8172 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-05-10 11:53:29.381  INFO 9136 --- [main] m.s.SpringBootEhcacheApplication         : Starting SpringBootEhcacheApplication using Java 16.0.2 on mao with PID 9136 (H:\程序\大三下期\spring_boot_ehcache\target\classes started by mao in H:\程序\大三下期\spring_boot_ehcache)
+2022-05-10 11:53:29.383 DEBUG 9136 --- [main] m.s.SpringBootEhcacheApplication         : Running with Spring Boot v2.6.7, Spring v5.3.19
+2022-05-10 11:53:29.387  INFO 9136 --- [main] m.s.SpringBootEhcacheApplication         : The following 1 profile is active: "dev"
+2022-05-10 11:53:30.137  INFO 9136 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-10 11:53:30.143  INFO 9136 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-10 11:53:30.144  INFO 9136 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-10 11:53:30.222  INFO 9136 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-10 11:53:30.222  INFO 9136 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 802 ms
+2022-05-10 11:53:30.293  INFO 9136 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-05-10 11:53:30.391  INFO 9136 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-05-10 11:53:30.843  INFO 9136 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-10 11:53:30.853  INFO 9136 --- [main] m.s.SpringBootEhcacheApplication         : Started SpringBootEhcacheApplication in 1.799 seconds (JVM running for 2.305)
+2022-05-10 11:53:58.534  INFO 9136 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-10 11:53:58.534  INFO 9136 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-10 11:53:58.535  INFO 9136 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-05-10 11:53:58.890 DEBUG 9136 --- [http-nio-8080-exec-2] m.s.dao.BookDao.selectById               : ==>  Preparing: SELECT id,type,name,description FROM book WHERE id=?
+2022-05-10 11:53:58.911 DEBUG 9136 --- [http-nio-8080-exec-2] m.s.dao.BookDao.selectById               : ==> Parameters: 1(Integer)
+2022-05-10 11:53:58.955 DEBUG 9136 --- [http-nio-8080-exec-2] m.s.dao.BookDao.selectById               : <==      Total: 1
+2022-05-10 11:54:14.805 DEBUG 9136 --- [http-nio-8080-exec-1] m.s.dao.BookDao.selectById               : ==>  Preparing: SELECT id,type,name,description FROM book WHERE id=?
+2022-05-10 11:54:14.805 DEBUG 9136 --- [http-nio-8080-exec-1] m.s.dao.BookDao.selectById               : ==> Parameters: 1(Integer)
+2022-05-10 11:54:14.807 DEBUG 9136 --- [http-nio-8080-exec-1] m.s.dao.BookDao.selectById               : <==      Total: 1
+2022-05-10 11:54:19.749 DEBUG 9136 --- [http-nio-8080-exec-4] m.s.dao.BookDao.selectById               : ==>  Preparing: SELECT id,type,name,description FROM book WHERE id=?
+2022-05-10 11:54:19.749 DEBUG 9136 --- [http-nio-8080-exec-4] m.s.dao.BookDao.selectById               : ==> Parameters: 1(Integer)
+2022-05-10 11:54:19.750 DEBUG 9136 --- [http-nio-8080-exec-4] m.s.dao.BookDao.selectById               : <==      Total: 1
+2022-05-10 11:54:20.275 DEBUG 9136 --- [http-nio-8080-exec-5] m.s.dao.BookDao.selectById               : ==>  Preparing: SELECT id,type,name,description FROM book WHERE id=?
+2022-05-10 11:54:20.276 DEBUG 9136 --- [http-nio-8080-exec-5] m.s.dao.BookDao.selectById               : ==> Parameters: 1(Integer)
+2022-05-10 11:54:20.277 DEBUG 9136 --- [http-nio-8080-exec-5] m.s.dao.BookDao.selectById               : <==      Total: 1
+2022-05-10 11:54:25.703 DEBUG 9136 --- [http-nio-8080-exec-6] m.s.dao.BookDao.selectById               : ==>  Preparing: SELECT id,type,name,description FROM book WHERE id=?
+2022-05-10 11:54:25.704 DEBUG 9136 --- [http-nio-8080-exec-6] m.s.dao.BookDao.selectById               : ==> Parameters: 1(Integer)
+2022-05-10 11:54:25.705 DEBUG 9136 --- [http-nio-8080-exec-6] m.s.dao.BookDao.selectById               : <==      Total: 1
+2022-05-10 11:54:26.804 DEBUG 9136 --- [http-nio-8080-exec-7] m.s.dao.BookDao.selectById               : ==>  Preparing: SELECT id,type,name,description FROM book WHERE id=?
+2022-05-10 11:54:26.804 DEBUG 9136 --- [http-nio-8080-exec-7] m.s.dao.BookDao.selectById               : ==> Parameters: 1(Integer)
+2022-05-10 11:54:26.806 DEBUG 9136 --- [http-nio-8080-exec-7] m.s.dao.BookDao.selectById               : <==      Total: 1
+2022-05-10 11:54:27.410 DEBUG 9136 --- [http-nio-8080-exec-9] m.s.dao.BookDao.selectById               : ==>  Preparing: SELECT id,type,name,description FROM book WHERE id=?
+2022-05-10 11:54:27.411 DEBUG 9136 --- [http-nio-8080-exec-9] m.s.dao.BookDao.selectById               : ==> Parameters: 1(Integer)
+2022-05-10 11:54:27.413 DEBUG 9136 --- [http-nio-8080-exec-9] m.s.dao.BookDao.selectById               : <==      Total: 1
+2022-05-10 11:55:09.558  INFO 9136 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-05-10 11:55:09.562  INFO 9136 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-05-10 11:55:14.212  INFO 13952 --- [main] m.s.SpringBootEhcacheApplication         : Starting SpringBootEhcacheApplication using Java 16.0.2 on mao with PID 13952 (H:\程序\大三下期\spring_boot_ehcache\target\classes started by mao in H:\程序\大三下期\spring_boot_ehcache)
+2022-05-10 11:55:14.214 DEBUG 13952 --- [main] m.s.SpringBootEhcacheApplication         : Running with Spring Boot v2.6.7, Spring v5.3.19
+2022-05-10 11:55:14.218  INFO 13952 --- [main] m.s.SpringBootEhcacheApplication         : The following 1 profile is active: "dev"
+2022-05-10 11:55:14.992  INFO 13952 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-10 11:55:14.999  INFO 13952 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-10 11:55:14.999  INFO 13952 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-10 11:55:15.078  INFO 13952 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-10 11:55:15.078  INFO 13952 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 826 ms
+2022-05-10 11:55:15.149  INFO 13952 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-05-10 11:55:15.247  INFO 13952 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-05-10 11:55:15.677  WARN 13952 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cacheAutoConfigurationValidator' defined in class path resource [org/springframework/boot/autoconfigure/cache/CacheAutoConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: No cache manager could be auto-configured, check your configuration (caching type is 'EHCACHE')
+2022-05-10 11:55:15.679  INFO 13952 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-05-10 11:55:15.680  INFO 13952 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-05-10 11:55:15.681  INFO 13952 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-05-10 11:55:15.693  INFO 13952 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-05-10 11:55:15.707 ERROR 13952 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cacheAutoConfigurationValidator' defined in class path resource [org/springframework/boot/autoconfigure/cache/CacheAutoConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: No cache manager could be auto-configured, check your configuration (caching type is 'EHCACHE')
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.19.jar:5.3.19]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.19.jar:5.3.19]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301) ~[spring-boot-2.6.7.jar:2.6.7]
+	at mao.spring_boot_ehcache.SpringBootEhcacheApplication.main(SpringBootEhcacheApplication.java:14) ~[classes/:na]
+Caused by: java.lang.IllegalArgumentException: No cache manager could be auto-configured, check your configuration (caching type is 'EHCACHE')
+	at org.springframework.util.Assert.notNull(Assert.java:219) ~[spring-core-5.3.19.jar:5.3.19]
+	at org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration$CacheManagerValidator.afterPropertiesSet(CacheAutoConfiguration.java:109) ~[spring-boot-autoconfigure-2.6.7.jar:2.6.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800) ~[spring-beans-5.3.19.jar:5.3.19]
+	... 16 common frames omitted
+
+2022-05-10 11:56:35.329  INFO 1624 --- [main] m.s.SpringBootEhcacheApplication         : Starting SpringBootEhcacheApplication using Java 16.0.2 on mao with PID 1624 (H:\程序\大三下期\spring_boot_ehcache\target\classes started by mao in H:\程序\大三下期\spring_boot_ehcache)
+2022-05-10 11:56:35.331 DEBUG 1624 --- [main] m.s.SpringBootEhcacheApplication         : Running with Spring Boot v2.6.7, Spring v5.3.19
+2022-05-10 11:56:35.331  INFO 1624 --- [main] m.s.SpringBootEhcacheApplication         : The following 1 profile is active: "dev"
