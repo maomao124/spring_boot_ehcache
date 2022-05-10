@@ -1,0 +1,8 @@
+mao\spring_boot_ehcache\entity\Result.class
+mao\spring_boot_ehcache\service\impl\BookServiceImpl.class
+mao\spring_boot_ehcache\service\IBookService.class
+mao\spring_boot_ehcache\controller\BookController.class
+mao\spring_boot_ehcache\SpringBootEhcacheApplication.class
+mao\spring_boot_ehcache\entity\Book.class
+mao\spring_boot_ehcache\config\MybatisPlusConfig.class
+mao\spring_boot_ehcache\dao\BookDao.class

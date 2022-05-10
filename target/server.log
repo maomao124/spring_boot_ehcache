@@ -1,0 +1,12 @@
+2022-05-10 12:28:17.293  INFO 10500 --- [main] m.s.SpringBootEhcacheApplication         : Starting SpringBootEhcacheApplication v0.0.1-SNAPSHOT using Java 16.0.2 on mao with PID 10500 (H:\程序\大三下期\spring_boot_ehcache\target\spring_boot_ehcache-0.0.1-SNAPSHOT.jar started by mao in H:\程序\大三下期\spring_boot_ehcache\target)
+2022-05-10 12:28:17.297 DEBUG 10500 --- [main] m.s.SpringBootEhcacheApplication         : Running with Spring Boot v2.6.7, Spring v5.3.19
+2022-05-10 12:28:17.297  INFO 10500 --- [main] m.s.SpringBootEhcacheApplication         : The following 1 profile is active: "dev"
+2022-05-10 12:28:18.774  INFO 10500 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-10 12:28:18.788  INFO 10500 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-10 12:28:18.788  INFO 10500 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-10 12:28:18.883  INFO 10500 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-10 12:28:18.884  INFO 10500 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1525 ms
+2022-05-10 12:28:19.070  INFO 10500 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-05-10 12:28:19.320  INFO 10500 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-05-10 12:28:20.711  INFO 10500 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-10 12:28:20.726  INFO 10500 --- [main] m.s.SpringBootEhcacheApplication         : Started SpringBootEhcacheApplication in 4.054 seconds (JVM running for 4.524)
